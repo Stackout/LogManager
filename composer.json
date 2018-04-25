@@ -1,0 +1,19 @@
+{
+    "name": "stackout/logmanager",
+    "description": "This allows for ease of use to read larave's log files",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Ryan Hein",
+            "email": "admin@heimech.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Stackout\\LogManager\\": "src/",
+            "Stackout\\": "./"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
